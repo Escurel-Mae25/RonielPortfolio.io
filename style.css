@@ -233,6 +233,21 @@ section .title::after{
     object-fit: cover;
     border-radius: 6px;
 }
+
+.about .about-content .left b{
+    display: inline-block;
+    background: rgb(150, 65, 40);
+    color: rgb(218, 44, 44);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(150, 65, 40);
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
 .about .about-content .right{
     width: 55%;
 }
@@ -248,6 +263,9 @@ section .title::after{
     text-align: justify;
     font-size: 17px;
 }
+
+
+
 .about .about-content .right a{
     display: inline-block;
     background: rgb(150, 65, 40);
